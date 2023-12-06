@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Containers */
+.container{
+    width: 100%;
+    height: 15vh;
+    display:grid; 
+    grid-template-columns: 1fr 1fr  ;
+    /* grid-template-rows: 1fr;  */
+    background-color: purple;
+    border-radius: 25px;
+}
+/* --------------- */
+header{
+    display: block;
+
+}
+
+/* Cajas */
+.box1 {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    /* border: 1px solid black;
+    border-radius: 25px solid black; */
+    background-color: transparent;
+    cursor: pointer ;
+}
+.cursiva2{
+    color: white;
+    font-family: cursive,roboto;
+}
+.box2{
+    display: flex;
+    width: 4rem;
+    height: 3.15rem;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 25px solid black;
+    background-color: transparent; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* --------------- */
+
+
+
+/* box1 edit etiquetas */
+.box1 img {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer ;
+}
+
+
+.box1 img:hover {
+    width: 100%; /* Esto puede causar que la imagen se estire al hacer hover */
+}
+/* --------------- */
+
+
+/* box2 edit etiquetas */
+.box2 img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.box2 img:hover {
+    width: 100%; /* Esto puede causar que la imagen se estire al hacer hover */
+}
+/* --------------- */
+.bodyy{
+    background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); 
+    /* MODO LIGH */
+
+    /* background: rgb(10,9,66);
+    background: linear-gradient(45deg, rgba(10,9,66,1) 0%, rgba(1,1,8,0.95) 50%, rgba(10,9,66,1) 100%); */
+}
+.cajaContenedor{
+    display: flex;
+    font-size: 17px;
+    font-family: cursive;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.caja{
+    display: flex;
+    height: 100%;
+    /* border: 1px solid purple; */
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+.links{
+    display:flex ;
+}
+.cajaInput{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+a{
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    border-radius: 25%;
+}
+input{
+    border-radius:25px ;
+    padding: 10px 0 10px 0;
+    border: grey;
+    margin: 0 15px 5px 15px;
+    font-family: cursive;
+    padding: 12px 20px 12px 20px;
+    /* height: 2rem; */
+    width: 20rem;
+}
+.buton{
+    /* text-decoration:underline overline; */
+    margin: 0 0 0 10%;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: transparent;
+}
